@@ -13,3 +13,5 @@ module.exports = function(a, b) {
 setTimeout(() => {
   console.log(exports)
 }, 2000)
+//查看webpack的运行机制
+//webpack --devtool none --mode development --target node ./commonjs/index.js

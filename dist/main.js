@@ -13,7 +13,7 @@
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
 /******/ 			l: false,
-/******/ 			exports: {}
+/******/ 			exports: {}//一个模块就是一个函数
 /******/ 		};
 /******/
 /******/ 		// Execute the module function

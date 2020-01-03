@@ -1,6 +1,10 @@
+var http = require('./httpserver/index')
+
+var eventloop = require('./eventloop/index')
 var playerAction = process.argv[process.argv.length - 1]
 console.log('你出的是' + playerAction)
 
+http.createServer()
 var random = Math.random() * 3
 
 var computeAction = ''
