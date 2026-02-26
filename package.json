@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jalongod/nodejs#readme",
   "dependencies": {
-    "glob": "^7.1.6"
+    "glob": "^13.0.6"
   }
 }
